@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+
+// API-KEY ===  646fa962294f1ddd7ea03d5683c1e100
+// Example API request === https://api.themoviedb.org/3/movie/550?api_key=646fa962294f1ddd7ea03d5683c1e100
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <h1>hii</h1>
     </div>
   );
 }
