@@ -11,7 +11,6 @@ function Row({ title, fetchUrl, isLargeRow  }) {
 
     const [movies, setMovies] = useState([]);
 
-    console.log(movies);
     // a snippet of code which runs baased on a specific condittion/varible
     useEffect(() => {
 
@@ -21,7 +20,7 @@ function Row({ title, fetchUrl, isLargeRow  }) {
             setMovies(request.data.results);
             return request;
         }
-
+        
         fetchData();
     }, [fetchUrl]);
 

@@ -7,11 +7,11 @@ import Banner from './Banner';
 
 
 function App() {
-  console.log((Math.random()*20))
+
   return (
     <div className="App">
       {/* navbar */}
-      <Banner />
+      <Banner isbanner="yes"/>
       <Row isLargeRow title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} />
       <Row title="In Theatre" fetchUrl={requests.fetchInTheatre} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
